@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+
+body {
+    font-family: 'Amatic SC', cursive;
+    overflow-x: hidden;
+    font-size: 23px;
+}
+
+#bg-contactos{
+    position:relative;
+    top: -130px;
+} 
+
+ #seccion-contacto{
+    background-color: #fff;
+    min-height:500px;
+    position:relative;
+}
+
+/* footer */
+
+footer {
+    background: #000;
+    min-height: 100px;;
+}
+footer p{
+    color:#fff;
+    text-align:center;
+    
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#fff;
+}

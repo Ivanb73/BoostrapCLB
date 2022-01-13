@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+
+body {
+    font-family: 'Amatic SC', cursive;
+    overflow-x: hidden;
+    font-size: 23px;
+}
+
+
+/* menu */
+
+ #menu a, button{
+     font-size: 10px !important;
+     font-weight: 600;
+    
+ }
+
+ #menu a{
+     color:#000;
+     
+ }
+
+ /* imagenes */
+
+.carousel-inner {
+    max-height:30rem !important;
+}
+
+/* nuestro equipo */
+
+#img-equipo{
+    max-height:30rem !important;
+    width:50%;
+}
+
+
+/* mapa */
+#local {
+    margin-top:50px;
+    background-color: #f3f3f3;
+    display:flex;
+    justify-content: center; 
+    padding-bottom: 300px; 
+}
+
+.mapa {
+   margin-top: 100px;
+   margin-left: 100px;
+}
+
+.tamaño{
+    width: 15rem;
+}
+
+
+.wrapper-local {
+    width:50%;
+    margin-left:80px;
+    padding-top:150px;
+}
+
+
+/* equip */
+.office{
+    text-align: center;
+}
+
+/* contacto background */
+
+#bg-contactos{
+    position:relative;
+    top: -130px;
+} 
+
+ #seccion-contacto{
+    background-color: #fff;
+    min-height:500px;
+    position:relative;
+}
+
+/* form */
+
+#contenedor-formulario{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius:5px;
+    max-width: 500px;    
+}
+
+#titulo-formulario {
+    color: #000;
+}
+
+
+/* footer */
+
+footer {
+    background: #000;
+    min-height: 100px;;
+}
+footer p{
+    color:#fff;
+    text-align:center;
+    
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#fff;
+}
+
+/* pantalla ancha */
+
+@media (max-width:1200px){
+    #intro, #equipo {
+        width:90% !important;
+        margin:auto;
+    }
+  
+    #local {
+        flex-wrap: wrap;
+        padding-top:30px;
+   }
+   .wrapper-local {
+    width:90%;
+    margin:auto;
+    padding-top:50px;    
+   }
+ 
+}
+/* media pantalla sm */
+
+@media (max-width:768px) {
+
+    #intro, #equipo{
+        width:90% !important;
+        margin:auto;
+    }
+
+    
+    #img-equipo{
+        max-height:20rem !important;
+        width:90%;
+    }
+    .wrapper-local {
+        width:90%;
+        margin:auto;
+        padding-top:50px;    
+    }
+    #local {
+        flex-wrap: wrap;
+    }
+    .mapa img {
+        width:100%;
+        height:auto;
+    }
+    #bg-contactos{
+        top: -120px;
+    }
+
+
+}
+/* media extra sm */
+
+@media (max-width: 576px) {
+    #servicios-fila-2 {
+        width:100% !important;
+    }
+    #servicios-fila-1 {
+        width:100% !important;
+    }
+
+    .icono-wrap{
+        flex-wrap:wrap !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+}
